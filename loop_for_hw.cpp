@@ -34,10 +34,10 @@ int main() {
         }
         else if (choice == 2) {
             // Task 2: Угадай число
-            int lower_bound = 0, upper_bound = 5000, current_guess, attempts = 0;
+            int lower_bound = 0, upper_bound = 1000, current_guess, attempts = 0;
             char answer;
 
-            cout << "Think of a number between 0 and 5000. I'll try to guess it.\n";
+            cout << "Think of a number between 0 and 1000. I'll try to guess it.\n";
 
             while (lower_bound <= upper_bound) {
                 current_guess = (lower_bound + upper_bound) / 2;
